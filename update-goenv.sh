@@ -1,1 +1,1 @@
-cd /home/bkzhn/.goenv/plugins/go-build/../.. && git pull && cd -
+cd $HOME/.goenv/plugins/go-build/../.. && git pull && cd -

@@ -1,1 +1,1 @@
-git -C /home/bkzhn/.nodenv/plugins/node-build pull
+git -C $HOME/.nodenv/plugins/node-build pull
