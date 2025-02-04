@@ -1,5 +1,8 @@
-~/uuaa.sh
+~/update-dnf.sh
+~/update-omz.sh
 ~/update-goenv.sh
 ~/update-pyenv.sh
 ~/update-rbenv.sh
 ~/update-nodenv.sh
+~/update-snap.sh
+~/update-flatpak.sh
