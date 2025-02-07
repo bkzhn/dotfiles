@@ -4,5 +4,7 @@
 ~/update-pyenv.sh
 ~/update-rbenv.sh
 ~/update-nodenv.sh
+~/update-rust.sh
+~/update-sdk.sh
 ~/update-snap.sh
 ~/update-flatpak.sh
