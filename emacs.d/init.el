@@ -90,4 +90,24 @@
 (setq which-key-side-window-location 'bottom)
 
 
+;; Yaml syntax support
+(use-package yaml-mode
+  :mode "\\.ya?ml\\'")
+
+(with-eval-after-load 'catppuccin-theme
+  (custom-set-faces
+   '(font-lock-keyword-face (
+			     (t (
+				 :foreground "#cba6f7" :weight bold))))
+   '(font-lock-string-face (
+			     (t (
+				 :foreground "#a6e3a1"))))
+   '(font-lock-comment-face (
+			     (t (
+				 :foreground "#6c7086"))))
+   '(font-lock-variable-name-face (
+			     (t (
+				 :foreground "#f9e2af"))))
+   ))
+(add-hook 'yaml-mode-hook #'font-lock-mode)
 
