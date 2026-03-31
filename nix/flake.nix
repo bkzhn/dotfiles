@@ -17,6 +17,7 @@
 						pkgs.firefox
 						pkgs.tmux
 						pkgs.lazygit
+						pkgs.pandoc
 					];
 				};
 
@@ -25,6 +26,7 @@
 				firefox	  = pkgs.firefox;
 				tmux	  = pkgs.tmux;
 				lazygit	  = pkgs.lazygit;
+				pandoc	  = pkgs.pandoc;
 
 				default = self.packages.${system}.all;
 			};
