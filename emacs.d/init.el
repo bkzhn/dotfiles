@@ -111,3 +111,9 @@
    ))
 (add-hook 'yaml-mode-hook #'font-lock-mode)
 
+
+;; nix synatx support
+(use-package nix-mode
+  :elpaca t
+  :mode "\\.nix\\'")
+
