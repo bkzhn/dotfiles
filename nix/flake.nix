@@ -17,6 +17,7 @@
 						pkgs.firefox
 						pkgs.tmux
 						pkgs.lazygit
+						pkgs.mise
 						pkgs.lazydocker
 						pkgs.btop
 						pkgs.emacs
@@ -29,6 +30,7 @@
 				firefox	   = pkgs.firefox;
 				tmux	   = pkgs.tmux;
 				lazygit	   = pkgs.lazygit;
+				mise	   = pkgs.mise;
 				lazydocker = pkgs.lazydocker;
 				btop	   = pkgs.btop;
 				emacs	   = pkgs.emacs;
