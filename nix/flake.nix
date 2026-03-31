@@ -17,20 +17,22 @@
 						pkgs.firefox
 						pkgs.tmux
 						pkgs.lazygit
+						pkgs.lazydocker
 						pkgs.btop
 						pkgs.emacs
 						pkgs.pandoc
 					];
 				};
 
-				fastfetch = pkgs.fastfetch;
-				neovim	  = pkgs.neovim;
-				firefox	  = pkgs.firefox;
-				tmux	  = pkgs.tmux;
-				lazygit	  = pkgs.lazygit;
-				btop	  = pkgs.btop;
-				emacs	  = pkgs.emacs;
-				pandoc	  = pkgs.pandoc;
+				fastfetch  = pkgs.fastfetch;
+				neovim	   = pkgs.neovim;
+				firefox	   = pkgs.firefox;
+				tmux	   = pkgs.tmux;
+				lazygit	   = pkgs.lazygit;
+				lazydocker = pkgs.lazydocker;
+				btop	   = pkgs.btop;
+				emacs	   = pkgs.emacs;
+				pandoc	   = pkgs.pandoc;
 
 				default = self.packages.${system}.all;
 			};
