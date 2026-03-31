@@ -117,3 +117,14 @@
   :elpaca t
   :mode "\\.nix\\'")
 
+
+;; markdown preview
+(elpaca
+    (markdown-mode
+     :host github
+     :repo "jrblevin/markdown-mode"
+     :files (:defaults "markdown-mode-pkg.el")
+     )
+ )
+(setq markdown-command "~/.nix-profile/bin/pandoc")
+
