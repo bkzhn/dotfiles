@@ -18,6 +18,7 @@
 						pkgs.tmux
 						pkgs.lazygit
 						pkgs.btop
+						pkgs.emacs
 						pkgs.pandoc
 					];
 				};
@@ -28,6 +29,7 @@
 				tmux	  = pkgs.tmux;
 				lazygit	  = pkgs.lazygit;
 				btop	  = pkgs.btop;
+				emacs	  = pkgs.emacs;
 				pandoc	  = pkgs.pandoc;
 
 				default = self.packages.${system}.all;
