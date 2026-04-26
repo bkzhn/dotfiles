@@ -9,6 +9,9 @@
       "models": {
         "gpt-oss:20b": {
           "name": "gpt-oss:20b"
+        },
+        "gemma4:26b": {
+          "name": "gemma4:26b"
         }
       }
     }
